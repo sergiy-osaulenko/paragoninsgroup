@@ -8,9 +8,9 @@
                             {
                                 "elements": [
                                     {
-                                        "autoHeight": "736px",
+                                        "autoHeight": "746px",
                                         "defaultWidth": 512,
-                                        "height": "736px",
+                                        "height": "746px",
                                         "maxHeight": 2048,
                                         "maxWidth": 2048,
                                         "minHeight": 128,

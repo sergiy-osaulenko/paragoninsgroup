@@ -1,5 +1,6 @@
 {
     "allowChangeSubscription": false,
+    "autoUpdateOnFiltersChange": true,
     "dataExploration": false,
     "datasource": {
         "address": "LocalHost",
@@ -18,7 +19,8 @@
     "layout": "./layout.json",
     "oid": "65319d036f8b3600335048d0",
     "settings": {
-        "autoUpdateOnFiltersChange": true
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
     },
     "style": {
         "palette": {
@@ -34,6 +36,7 @@
         }
     },
     "title": "Test Application Database",
+    "useAcceleration": false,
     "widgets": [
         "./widgets/65319d036f8b3600335048d1/widget.json"
     ]
