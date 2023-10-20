@@ -1,0 +1,11 @@
+{
+    "connection": "./connection.json",
+    "database": "prismWebDB",
+    "elasticube": "dba9bdc8-52d2-4f46-8552-71277505c6f6",
+    "oid": "131300ff-f130-44e2-846e-ba6f1ab176e0",
+    "schemaName": "TempTableQuerySchema",
+    "tables": [
+        "./2be9b3c8-71a2-44e4-978b-1800047b95bd/table.json"
+    ],
+    "type": "extract"
+}

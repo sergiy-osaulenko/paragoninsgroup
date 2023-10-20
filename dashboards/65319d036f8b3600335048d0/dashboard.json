@@ -1,0 +1,40 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aTestIAAaApplicationIAAaDatabase",
+        "fullname": "localhost/Test Application Database",
+        "id": "localhost_aTestIAAaApplicationIAAaDatabase",
+        "live": false,
+        "title": "Test Application Database"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "65319d036f8b3600335048d0",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "Test Application Database",
+    "widgets": [
+        "./widgets/65319d036f8b3600335048d1/widget.json"
+    ]
+}

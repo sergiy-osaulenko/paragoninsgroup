@@ -1,0 +1,45 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "_id",
+            "oid": "84c9560b-a0f2-4ac7-a006-dd65da0ff649",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "displayName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "displayName",
+            "oid": "df64a26e-ba4b-4f83-813f-ab40bf401348",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT _id,displayName FROM \"prismConfig\".\"roles\""
+    },
+    "dataset": "d5448396-72e5-4625-850e-29bb96bb326d",
+    "hidden": false,
+    "id": "tq_NdSM9RVnS",
+    "isMaterialized": false,
+    "name": "roles",
+    "oid": "d72c6dec-6b2a-4e8d-b2f9-be6631e5ba81",
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

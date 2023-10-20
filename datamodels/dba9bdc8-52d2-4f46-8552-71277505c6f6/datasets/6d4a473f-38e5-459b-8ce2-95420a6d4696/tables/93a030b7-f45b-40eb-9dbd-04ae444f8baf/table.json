@@ -1,0 +1,81 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "_id",
+            "oid": "81dfc530-9142-4e47-9a16-ca55fab25e00",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "name",
+            "oid": "b4ecee37-84ab-4e97-9fe4-77fce0975207",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "defaultRole",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "defaultRole",
+            "oid": "99803b7f-5d16-4138-82da-2585eb1813d7",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "created",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "created",
+            "oid": "595360ff-c2fc-443d-b519-80a88641ea41",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastUpdated",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastUpdated",
+            "oid": "652c8705-21a3-4dae-881e-e733f0124999",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT _id,name,defaultRole,created,lastUpdated FROM \"prismWebDB\".\"groups\""
+    },
+    "dataset": "6d4a473f-38e5-459b-8ce2-95420a6d4696",
+    "hidden": false,
+    "id": "tq_ocMslvyVc",
+    "isMaterialized": false,
+    "name": "groups",
+    "oid": "93a030b7-f45b-40eb-9dbd-04ae444f8baf",
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

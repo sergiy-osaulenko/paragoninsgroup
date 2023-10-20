@@ -1,0 +1,141 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "_id",
+            "oid": "26c2e7b1-dd13-4b2d-8c7f-7b9490b6a5c5",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "title",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "title",
+            "oid": "e2bab0e1-a5ec-4c91-af9a-aa69ac8965ab",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "creator",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "creator",
+            "oid": "a55253ea-eb89-42df-b2a9-c92fc1769a40",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "lastBuildTimeFromNextECM",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastBuildTimeFromNextECM",
+            "oid": "e6272ebe-edca-49e1-8624-f14b1bb6d1b0",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastSuccessfulBuildTime",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastSuccessfulBuildTime",
+            "oid": "5e68108c-ef52-4c02-9967-0c1f151ed2b8",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastBuildTime",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastBuildTime",
+            "oid": "23197778-6dee-4b0b-b247-7ee019d41f59",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastUpdated",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastUpdated",
+            "oid": "875820bf-cb2b-4f4e-9ab1-581ba32e6a93",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "oid",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "oid",
+            "oid": "5f18f7a3-a175-4cae-b141-ac2231285f89",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "lastSuccessfulBuildStartTime",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastSuccessfulBuildStartTime",
+            "oid": "fa514e22-1a02-4809-8c95-ad33ac916a24",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastSuccessfulManualBuildStartTime",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastSuccessfulManualBuildStartTime",
+            "oid": "a99d870d-7832-47ef-b831-0b6b7a61703c",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT _id,title,creator,lastBuildTimeFromNextECM,lastSuccessfulBuildTime,lastBuildTime,lastUpdated,oid,lastSuccessfulBuildStartTime,lastSuccessfulManualBuildStartTime FROM \"prismWebDB\".\"elasticubes\""
+    },
+    "dataset": "1594d3f2-b285-483b-90c2-2659cc82b0f4",
+    "hidden": false,
+    "id": "tq_C6YqRW4NB",
+    "isMaterialized": false,
+    "name": "elasticubes",
+    "oid": "008d1201-60b0-43ee-863e-9956cc00c22b",
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

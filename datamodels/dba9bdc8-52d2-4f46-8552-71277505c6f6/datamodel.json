@@ -1,0 +1,30 @@
+{
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./05d5a062-a36f-4fb8-b61d-362195fac1fa/dataset.json",
+        "./131300ff-f130-44e2-846e-ba6f1ab176e0/dataset.json",
+        "./1594d3f2-b285-483b-90c2-2659cc82b0f4/dataset.json",
+        "./6d4a473f-38e5-459b-8ce2-95420a6d4696/dataset.json",
+        "./81b5415e-b307-4ca2-a38c-6028f9fed11a/dataset.json",
+        "./d5448396-72e5-4625-850e-29bb96bb326d/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-10-19T21:18:46.754Z",
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "dba9bdc8-52d2-4f46-8552-71277505c6f6",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "shouldUpdateScheduleOnManualBuild": null,
+    "title": "Test Application Database",
+    "type": "extract"
+}

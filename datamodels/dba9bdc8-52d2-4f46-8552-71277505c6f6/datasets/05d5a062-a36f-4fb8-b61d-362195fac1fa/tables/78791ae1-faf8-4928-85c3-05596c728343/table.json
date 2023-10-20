@@ -1,0 +1,165 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "_id",
+            "oid": "9ada3a55-ccd6-4dae-be67-7ef4dc224b43",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "title",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "title",
+            "oid": "1c4bf206-9280-4ce9-8cd5-6e51ff551e37",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "oid",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "oid",
+            "oid": "01088453-f66f-4b70-a2b1-1197d6d137fe",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "source",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "source",
+            "oid": "e9e8435f-1ea5-454a-a656-cc2004d5d690",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "owner",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "owner",
+            "oid": "fafd9d11-5775-4fa4-9af3-c6f0dd95dbe6",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "userId",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "userId",
+            "oid": "456fca1b-7719-4797-88d9-35bc1cab0aa2",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "created",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "created",
+            "oid": "c1c35a4e-4740-43be-ba0a-90452b6bd2cc",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastUpdated",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastUpdated",
+            "oid": "37367769-4374-4be8-b180-5b7d8f55425d",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastUsed",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastUsed",
+            "oid": "1639325c-e7c5-4b64-8714-2f0f1fb0f44e",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "instanceType",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "instanceType",
+            "oid": "9a985ce5-63a3-4695-bf03-0d88c85310f7",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "lastOpened",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastOpened",
+            "oid": "c492424d-b7c0-4f35-aa89-1202b96629e0",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "lastPublish",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastPublish",
+            "oid": "af381414-449c-4850-9a0e-aac62615f700",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT _id,title,oid,source,owner,userId,created,lastUpdated,lastUsed,instanceType,lastOpened,lastPublish FROM \"prismWebDB\".\"dashboards\""
+    },
+    "dataset": "05d5a062-a36f-4fb8-b61d-362195fac1fa",
+    "hidden": false,
+    "id": "tq_zeeCcxR2U",
+    "isMaterialized": false,
+    "name": "dashboards",
+    "oid": "78791ae1-faf8-4928-85c3-05596c728343",
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
