@@ -35,6 +35,26 @@
             "name": "Vivid"
         }
     },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "65319d036f8b3600335048d0"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2023-10-20",
+        "timezone": -180,
+        "type": "onUpdate",
+        "tzName": "Europe/Kyiv"
+    },
     "title": "Test Application Database",
     "useAcceleration": false,
     "widgets": [

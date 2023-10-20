@@ -137,8 +137,10 @@
                 "datatype": "text",
                 "dim": "[dashboards.instanceType]",
                 "filter": {
-                    "all": true,
-                    "explicit": false,
+                    "explicit": true,
+                    "members": [
+                        "owner"
+                    ],
                     "multiSelection": true
                 },
                 "firstday": "mon",
