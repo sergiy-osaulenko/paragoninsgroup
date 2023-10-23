@@ -1,0 +1,236 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "64cd7508f585ec003333c09a",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aApplicationIAAaDatabase",
+        "fullname": "localhost/Application Database",
+        "id": "localhost_aApplicationIAAaDatabase",
+        "live": false,
+        "title": "Application Database"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendBreakByValueFilter": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[dashboards.oid]",
+                            "index": 0
+                        },
+                        "format": {
+                            "width": 201.71875
+                        },
+                        "instanceid": "7D271-49B8-E3",
+                        "jaql": {
+                            "column": "oid",
+                            "datatype": "text",
+                            "dim": "[dashboards.oid]",
+                            "merged": true,
+                            "table": "dashboards",
+                            "title": "oid"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[dashboards.title]",
+                            "index": 1
+                        },
+                        "format": {
+                            "width": 190.796875
+                        },
+                        "instanceid": "8814F-ED77-03",
+                        "jaql": {
+                            "column": "title",
+                            "datatype": "text",
+                            "dim": "[dashboards.title]",
+                            "merged": true,
+                            "table": "dashboards",
+                            "title": "title"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[users.email]",
+                            "index": 2
+                        },
+                        "instanceid": "B06F4-B185-EA",
+                        "jaql": {
+                            "column": "email",
+                            "datatype": "text",
+                            "dim": "[users.email]",
+                            "merged": true,
+                            "table": "users",
+                            "title": "email"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[dashboards.instanceType]",
+                            "index": 3
+                        },
+                        "instanceid": "444B8-D9BB-77",
+                        "jaql": {
+                            "column": "instanceType",
+                            "datatype": "text",
+                            "dim": "[dashboards.instanceType]",
+                            "merged": true,
+                            "table": "dashboards",
+                            "title": "instanceType"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[widgets.type]",
+                            "index": 4
+                        },
+                        "instanceid": "5B959-1809-0B",
+                        "jaql": {
+                            "column": "type",
+                            "datatype": "text",
+                            "dim": "[widgets.type]",
+                            "merged": true,
+                            "table": "widgets",
+                            "title": "type"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "64cd75b8f585ec003333c09c",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "selectorLocked": false,
+        "triggersDomready": true
+    },
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "oid",
+                    "plural": "oid",
+                    "singular": "oid",
+                    "title": "oid"
+                },
+                {
+                    "id": "title",
+                    "plural": "title",
+                    "singular": "title",
+                    "title": "title"
+                },
+                {
+                    "id": "email",
+                    "plural": "email",
+                    "singular": "email",
+                    "title": "email"
+                },
+                {
+                    "id": "instancetype",
+                    "plural": "instanceType",
+                    "singular": "instanceType",
+                    "title": "instanceType"
+                },
+                {
+                    "id": "type",
+                    "plural": "type",
+                    "singular": "type",
+                    "title": "type"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}
